@@ -13,4 +13,5 @@ def add_character(show, name)
 
   BASE_HOA[show] << name
   binding.pry
+  BASE_HOA[show]
 end
